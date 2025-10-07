@@ -29,7 +29,7 @@
 				<li class="nav-item"><a class="nav-link p-1" href="#account"><i class="bi bi-person"></i></a></li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle p-1" href="#" id="cartDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						<i class="bi bi-cart"></i> My Cart
+						<i class="bi bi-cart"></i> <span id="cart-count">0</span>
 					</a>
 					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cartDropdown">
 						<li><a class="dropdown-item" href="#cart">View Cart</a></li>
@@ -41,6 +41,119 @@
 			</ul>
 		</div>
 	</nav>
+
+	<!-- Logo row -->
+	<div class="row">
+		<div class="col-12">
+			<img src="img/is-ogo.png" alt="Island Snow" class="img-fluid rounded mx-auto d-block py-1">
+		</div>
+	</div>
+
+	<!-- Second centered menu (five columns with dropdowns) -->
+	<div class="container">
+		<div class="row justify-content-center pt-4">
+			<div class="col-auto">
+				<div class="dropdown">
+					<a class="nav-link dropdown-toggle p-1" href="#" role="button" id="menDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+						MEN
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="menDropdown">
+						<li><a class="dropdown-item" href="#men-boards">Boards</a></li>
+						<li><a class="dropdown-item" href="#men-clothing">Clothing</a></li>
+						<li><a class="dropdown-item" href="#men-boot">Boots</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-auto">
+				<div class="dropdown">
+					<a class="nav-link dropdown-toggle p-1" href="#" role="button" id="womenDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+						WOMEN
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="womenDropdown">
+						<li><a class="dropdown-item" href="#women-boards">Boards</a></li>
+						<li><a class="dropdown-item" href="#women-clothing">Clothing</a></li>
+						<li><a class="dropdown-item" href="#women-boot">Boots</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-auto">
+				<div class="dropdown">
+					<a class="nav-link dropdown-toggle p-1" href="#" role="button" id="kidsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+						KIDS
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="kidsDropdown">
+						<li><a class="dropdown-item" href="#kids-boards">Boards</a></li>
+						<li><a class="dropdown-item" href="#kids-clothing">Clothing</a></li>
+						<li><a class="dropdown-item" href="#kids-boot">Boots</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-auto">
+				<div class="dropdown">
+					<a class="nav-link dropdown-toggle p-1" href="#" role="button" id="brandsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+						BRANDS
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="brandsDropdown">
+						<li><a class="dropdown-item" href="#brand-a">Brand A</a></li>
+						<li><a class="dropdown-item" href="#brand-b">Brand B</a></li>
+						<li><a class="dropdown-item" href="#brand-c">Brand C</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-auto">
+				<a class="nav-link p-1" href="#search">SEARCH</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Full-width hero image centered -->
+	<div class="row justify-content-center">
+		<div class="col-12">
+			<img src="img/bridge.png" alt="Model on bridge" class="img-fluid w-100">
+		</div>
+	</div>
+
+</body>
+</html>
+
+	<!-- Footer -->
+	<footer class="site-footer mt-5">
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-md-4">
+					<h5 class="text-uppercase">Navigation</h5>
+					<hr>
+					<ul class="list-unstyled">
+						<li>About Us</li>
+						<li>Employment</li>
+						<li>Videos</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h5 class="text-uppercase">Main Menu</h5>
+					<hr>
+					<ul class="list-unstyled">
+						<li>Men</li>
+						<li>Women</li>
+						<li>Kids</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h5 class="text-uppercase">Connect</h5>
+					<hr>
+					<p>Sign up for the latest updates</p>
+					<div class="d-flex">
+						<input type="text" class="form-control me-2" placeholder="Enter Email Address" aria-label="Email">
+						<button class="btn btn-dark">Join</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>

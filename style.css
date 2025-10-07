@@ -18,3 +18,60 @@
 	background-color: #f8f9fa;
 }
 
+/* Second menu styling: black, no underline, aligned */
+.container .nav-link,
+.container .dropdown-toggle {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+.container .nav-link:hover,
+.container .dropdown-toggle:hover {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+/* Small vertical alignment tweak to line up with search icon */
+.container .nav-link,
+.container .dropdown-toggle {
+	line-height: 1;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+}
+
+/* Bold and uppercase for the centered menu */
+.container .nav-link,
+.container .dropdown-toggle,
+.container .nav-link .dropdown-toggle {
+	font-weight: 700 !important;
+	text-transform: uppercase;
+}
+
+/* Footer styles */
+.site-footer {
+	background-color: #292929;
+	color: #fff;
+}
+
+.site-footer h5 {
+	color: #fff;
+}
+
+.site-footer hr {
+	border: none;
+	height: 1px;
+	background-color: rgba(255,255,255,0.15);
+	margin: .5rem 0 1rem 0;
+	width: 100%;
+}
+
+.site-footer .list-unstyled li {
+	color: #ddd;
+	margin-bottom: 0.5rem;
+}
+
+.site-footer .form-control {
+	max-width: 220px;
+}
+
+
