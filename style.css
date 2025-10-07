@@ -18,3 +18,32 @@
 	background-color: #f8f9fa;
 }
 
+/* Second menu styling: black, no underline, aligned */
+.container .nav-link,
+.container .dropdown-toggle {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+.container .nav-link:hover,
+.container .dropdown-toggle:hover {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+/* Small vertical alignment tweak to line up with search icon */
+.container .nav-link,
+.container .dropdown-toggle {
+	line-height: 1;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+}
+
+/* Bold and uppercase for the centered menu */
+.container .nav-link,
+.container .dropdown-toggle,
+.container .nav-link .dropdown-toggle {
+	font-weight: 700 !important;
+	text-transform: uppercase;
+}
+
